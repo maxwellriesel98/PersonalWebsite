@@ -1,0 +1,63 @@
+
+
+
+.gradient-background {
+    background: linear-gradient(300deg, #053B50, #176B87,  #053B50);
+    background-size: 180% 180%;
+    animation: gradient-animation 10s ease infinite;
+  }
+  
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  #Resume{
+    background-color: #176B87 !important;
+    
+  }
+
+  #Experience{
+    background-color: #EEEEEE !important;
+  }
+
+  #Projects{
+
+    background-color: #64CCC5;
+
+  }
+
+  #textcolorexperiencebody{
+    color: #176B87 !important;
+  }
+
+  #textcoloreperienceheading{
+    color: #053B50 !important;
+  }
+
+  
+  .buttonP {
+    background-color: #64CCC5 !important;
+    color: 053B50 !important;
+  }
+
+  #textcolormain{
+    color: #EEEEEE !important;
+  }
+
+  h1  {
+    color: #EEEEEE !important;
+  }
+
+  p  {
+    color: #EEEEEE !important;
+  }
+
